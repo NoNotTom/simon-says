@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tom's Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
+
+<!--
+1 - Add JS and JQ
+2 - Plan out animation and sound cues for each colour on CPU and Human turn
+3 - Build function that initiates on any keydown
+4 - Relay required sequence to user and track desired outcome (probably going to be using an array of some kind? - pushing latest requirement)
+5 - Accept user input and check against required result
+6 - If correct continue cycle 
+    6a - Change H1 to track level
+7 - If Incorrect fail with screen flash and H1
+8 - Allow for ability to restart the game again with new keydown
+-->
